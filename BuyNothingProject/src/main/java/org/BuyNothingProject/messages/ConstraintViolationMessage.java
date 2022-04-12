@@ -4,7 +4,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
 public class ConstraintViolationMessage {
-	private static String type = "http://localhost:8081/bn/api/problems/data-validation";
+	private static String type = "http://localhost:8080/bn/api/problems/data-validation";
 	private static String title = "Your request data didn't pass validation";
 	private String detail;
 	private int status;
@@ -59,7 +59,5 @@ public class ConstraintViolationMessage {
 		msg.setType(type);
 		msg.setStatus(400);
 		return msg;
-
 	}
-
 }

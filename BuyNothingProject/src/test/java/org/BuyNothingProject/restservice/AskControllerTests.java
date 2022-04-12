@@ -152,13 +152,4 @@ public class AskControllerTests {
 		this.mockMvc.perform(get("/asks/" + aid).param("is_active", "false").contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk()).andExpect(jsonPath("$.description").value("Test Update description"));
 	}
-
-//	@Test
-//	@Order(8)
-//	public void deleteAskByTest() throws Exception {
-//		// with key and dates
-//		this.mockMvc.perform(delete(basePath + "/"+aid).contentType(MediaType.APPLICATION_JSON))
-//				.andExpect(status().isNoContent());
-//	}
-
 }

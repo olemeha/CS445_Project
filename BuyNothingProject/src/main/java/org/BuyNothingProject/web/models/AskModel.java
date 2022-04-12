@@ -89,5 +89,4 @@ public class AskModel {
 	public void setDate_created(String date_created) {
 		this.date_created = date_created;
 	}
-
 }
