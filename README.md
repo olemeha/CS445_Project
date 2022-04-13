@@ -82,10 +82,15 @@ Credits and acknowledgements:
 		
 2. Acknowledgements:
 		1. https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86
+	
 		2. https://maven.apache.org/guides/MavenQuickReferenceCard.pdf
+		
 		3. https://spring.io/projects/spring-boot
+		
 		4. https://spring.io/guides/gs/spring-boot/
+		
 		5. https://youtu.be/9SGDpanrc8U
+		
 		6. http://cs.iit.edu/~virgil/cs445/mail.spring2022/project/automated-test.html
 		
 
