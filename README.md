@@ -35,17 +35,18 @@ For Maven Project Testing:
 		
 		3. Then, run <mvn test> which will run the unit tests created in the Maven project. 
 		
-		4. To then continue testing in Postman, enter <mvn package> which will compile the Java code, run any tests, and finish by packaging the code in a JAR file within the target repository.
+		4. To get a full jacocoReport, type: "mvn clean test". 
 		
-		5. The name of the JAR file should be "target/BuyNothingProject-1.0-SNAPSHOT.jar".
+		5. You can access it by going through these files: Files>Downloads>Oleksandr-Lemeha-PR-1>BuyNothingProject>target>site>jacoco>index.html or,Files>Home>Oleksandr-Lemeha-PR-1>BuyNothingProject>target>site>jacoco>index.html
 		
-		6. Execute the JAR file by running: <java -jar target/BuyNothingProject-1.0-SNAPSHOT.jar>
+		6. To then continue testing in Postman, enter <mvn clean package> which will compile the Java code, run any tests, and finish by packaging the code in a JAR file within the target repository.
+		
+		7. The name of the JAR file should be "target/BuyNothingProject-1.0-SNAPSHOT.jar".
+		
+		8. Execute the JAR file by running: <java -jar target/BuyNothingProject-1.0-SNAPSHOT.jar>
 
-		7. Now the project is deployed to test the automated Postman Tests.
- 
-		8. To get a full jacocoReport, type: "mvn clean test". 
-		You can access it by going through these files: Files>Downloads>Oleksandr-Lemeha-PR-1>BuyNothingProject>target>site>jacoco>index.html or,
-		Files>Home>Oleksandr-Lemeha-PR-1>BuyNothingProject>target>site>jacoco>index.html 
+		9. Now the project is deployed to test the automated Postman Tests.
+  
 		
 For Postman Testing:
 
@@ -71,7 +72,8 @@ Copyright and Licensing Instructions:
 		3. Then, go to the following files: "Files>CS445_Project>BuyNothingProject>target>site>third-party-report". 
 
 Known bugs:
-
+		
+		1. There are known bugs with the GET requests. Most of the automated Postman tests that fail are the GET requests. 
 Credits and acknowledgements:
 
 1. Credits:
