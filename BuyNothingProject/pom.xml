@@ -73,6 +73,7 @@
          		 	<artifactId>maven-surefire-plugin</artifactId>
           			<version>3.0.0-M6</version>
 					<configuration>
+						<runOrder>alphabetical</runOrder>
 						<skipTests>false</skipTests>
 						<testFailureIgnore>true</testFailureIgnore>
 					    <forkMode>once</forkMode>
